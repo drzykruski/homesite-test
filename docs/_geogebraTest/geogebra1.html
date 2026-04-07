@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<html>
 <head>
-    <meta name=viewport content="width=device-width, inital-scale=1">
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <meta charset="utf-8"/>
+    <title>Geogebra Test</Title>
 </head>
 
 <body>
@@ -9,7 +12,7 @@
     <div id="ggb-element"></div>
 
     <script>
-        var params = {"appName" : "grpahing", "width" : 800, "height" : 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
+        var params = {"appName" : "graphing", "width" : 800, "height" : 600, "showToolBar": true, "showAlgebraInput": true, "showMenuBar": true };
         var applet = new GGBApplet(params, true);
         window.addEventListener("load", function() {
             applet.inject('ggb-element');
